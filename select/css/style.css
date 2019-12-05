@@ -481,12 +481,12 @@ tr.bg {
 }
 
 .dashboardkacheln {
-    width: calc(50% - 10px);
+    width: calc(45% - 10px);
     height: calc(33% - 10px);
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    font-size: 36px;
+    font-size: 20px;
     color: black;
     text-align: center;
     padding: 0px !important;
@@ -495,6 +495,7 @@ tr.bg {
     border-color: #b03686;
     color: white;
     display: inline-block;
+    line-height: 3.8;
 }
 
 div.dashboardkacheln:hover {
@@ -503,7 +504,30 @@ div.dashboardkacheln:hover {
 }
 
 .dashboardkacheln2 {
-    width: calc(33% - 8px);
+    width: calc(30% - 10px);
+    height: calc(33% - 10px);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 0px !important;
+    border-radius: 8px;
+    background-color: #892a69;
+    border-color: #b03686;
+    color: white;
+    display: inline-block;
+    line-height: 3.8;
+}
+
+div.dashboardkacheln2:hover {
+    background-color: #b03686;
+    box-shadow: 2px 2px 2px black;
+}
+
+.dashboardkacheln3 {
+    width: calc(10% - 10px);
     height: calc(33% - 10px);
     float: left;
     margin-left: 10px;
@@ -513,14 +537,15 @@ div.dashboardkacheln:hover {
     text-align: center;
     padding: 0px !important;
     border-radius: 8px;
-    background-color: #892a69;
+    background-color: #621e4b;
     border-color: #b03686;
     color: white;
     display: inline-block;
+    line-height: 2.4;
 }
 
-div.dashboardkacheln2:hover {
-    background-color: #b03686;
+div.dashboardkacheln3:hover {
+    background-color: #892a69;
     box-shadow: 2px 2px 2px black;
 }
 
